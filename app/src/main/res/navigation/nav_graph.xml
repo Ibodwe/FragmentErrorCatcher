@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/errorFragment1">
+
+    <fragment
+        android:id="@+id/errorFragment1"
+        android:name="com.example.myapplication.ErrorFragment1"
+        android:label="ErrorFragment1" />
+    <fragment
+        android:id="@+id/errorFragment2"
+        android:name="com.example.myapplication.ErrorFragment2"
+        android:label="ErrorFragment2" />
+</navigation>
